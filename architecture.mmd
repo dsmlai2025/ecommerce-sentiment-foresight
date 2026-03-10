@@ -1,0 +1,28 @@
+## **3. Architecture Diagram **
+```mermaid
+graph TB
+    subgraph Frontend["Frontend"]
+        S[Streamlit<br/>6-Tab Dashboard]
+    end
+    
+    subgraph Backend["Backend"]
+        F[FastAPI<br/>50ms Inference]
+        M[MLflow<br/>Model Registry]
+    end
+    
+    subgraph ML["ML Models"]
+        L[Logistic<br/>86% F1<br/>50ms]
+        B[BERT<br/>89% F1<br/>1.2s]
+    end
+    
+    S -->|REST API| F
+    F -->|MLflow| M
+    F -->|Predict| L
+    F -->|A/B Test| B
+    
+    classDef frontend fill:#e1f5fe
+    classDef backend fill:#f3e5f5
+    classDef ml fill:#e8f5e8
+    class S frontend
+    class F,M backend
+    class L,B ml
