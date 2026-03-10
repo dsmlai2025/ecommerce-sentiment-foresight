@@ -63,7 +63,6 @@ Class Distribution:
 Positive (4-5⭐): 62.4% (62,400 reviews)
 Negative (1-3⭐): 37.6% (37,600 reviews)
 
-
 ## 🛠️ **Tech Stack & Libraries**
 
 | **Category** | **Libraries** | **Purpose** |
@@ -73,6 +72,10 @@ Negative (1-3⭐): 37.6% (37,600 reviews)
 | **MLOps** | `MLflow` | Experiment tracking + model registry |
 | **Frontend** | `Streamlit`, `Plotly` | Interactive 7-tab dashboard |
 | **Production** | `Docker`, `docker-compose` | Containerized deployment |
+
+## Architecture Diagram
+
+![Architecture](architecture.mmd)
 
 ## 🔬 **Methodology**
 
