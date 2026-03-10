@@ -1,7 +1,6 @@
-README File
 <div align="center">
   <img src="demo.gif" width="800"/>
-  <h1><img src="https://em-content.zepeto.com/emoji/ff6b3d3a9e2f4f5e9c7a0b2e8d4f1a3c.png" width="40"> E-commerce Sentiment Foresight Engine</h1>
+  <h1> 🛍️ 🛒 E-commerce Sentiment Foresight Engine 💰 📈</h1>
   <p><b>Production ML Platform</b> | 86% F1 Logistic Regression | FastAPI + MLflow + Docker</p>
 </div>
 
